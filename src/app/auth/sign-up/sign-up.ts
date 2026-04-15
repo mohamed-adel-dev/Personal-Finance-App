@@ -23,8 +23,8 @@ export class SignUp implements OnInit {
   ) { }
 
   //
-  protected AdminUsername!: string;
-  protected AdminPassword!: string;
+  // protected AdminUsername!: string;
+  // protected AdminPassword!: string;
 
   //
   showPassword: boolean = false;

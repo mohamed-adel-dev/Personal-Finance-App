@@ -39,7 +39,7 @@ export class UsersService {
 
   //----------------------------------------------------------------------------------
 
-  // get data by id
+  // delete data by id
   delete(id: any): Observable<Users> {
     return this.http.delete<Users>(this.usersUrl + `/${id}`);
   }
