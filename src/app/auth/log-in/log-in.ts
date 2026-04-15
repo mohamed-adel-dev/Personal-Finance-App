@@ -3,7 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { ToastrService } from 'ngx-toastr';
 import { Router, RouterLink } from '@angular/router';
-import { UserService } from '../../services/user.service';
+import { UsersService } from '../../services/users.service';
 
 
 @Component({
@@ -16,7 +16,7 @@ import { UserService } from '../../services/user.service';
 export class LogIn implements OnInit {
 
   constructor(
-    private serv: UserService,
+    private serv: UsersService,
     private toastr: ToastrService,
     private router: Router
   ) { }
