@@ -1,6 +1,4 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist/firstng/browser",
   "routes": [
     {
       "src": "/(.*)",
