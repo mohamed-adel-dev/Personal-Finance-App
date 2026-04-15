@@ -2,7 +2,7 @@
   padding-left: var(--spacing-500);
   padding-right: var(--spacing-500);
   background-color: var(--beige-100);
-  /* min-height: 100vh; */
+  min-height: 100vh;
 }
 
 .row {

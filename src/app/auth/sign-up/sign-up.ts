@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, FormsModule, Validators } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
-import { UserService } from '../../services/user.service';
+import { UsersService } from '../../services/users.service';
 import { Router, RouterLink } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
 
@@ -17,7 +17,7 @@ export class SignUp implements OnInit {
 
   constructor(
     private fb: FormBuilder,
-    private serv: UserService,
+    private serv: UsersService,
     private toastr: ToastrService,
     private router: Router
   ) { }

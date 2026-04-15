@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { UserService } from '../../../../../services/user.service';
+import { UsersService } from '../../../../../services/users.service';
 import { ToastrService } from 'ngx-toastr';
 import { Router } from '@angular/router';
 
@@ -14,7 +14,7 @@ import { Router } from '@angular/router';
 export class Login implements OnInit {
 
   constructor(
-    private serv: UserService,
+    private serv: UsersService,
     private toastr: ToastrService,
     private router: Router
   ) { }
